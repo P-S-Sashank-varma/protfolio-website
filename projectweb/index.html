@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website HTML CSS Only | Codehal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">PROTFOLIO</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#journey">Education</a>
+            <a href="#skills">skills</a>
+
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Sashank Varma</h1>
+            <h3>Frontend Developer</h3>
+            <p>My name is Sashank, a skilled coder and frontend developer with experience in solving nearly 500 problems across various coding platforms. I bring strong problem-solving abilities and a passion for creating seamless user experiences.</p>
+            <div class="btn-box">
+                <a href="#">Hire Me</a>
+                <a href="#">Let's Talk</a>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <img src="C:\Users\sashank varma\Desktop\projectweb\aboutimg.jpg" alt="Profile Image">
+            <p>Frontend Developer!</p>
+            <p>I am a proficient coder with expertise in front-end development. I have solved over 500 problems on various coding platforms, showcasing my problem-solving abilities. I have learned and mastered HTML, CSS, JavaScript, and React.js, enabling me to create responsive and user-friendly web applications. Additionally, I have knowledge of C, C++, Java, and Python.</p>
+            <a href="#journey" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section id="journey">
+        <div class="journey-container">
+            <h2>My Journey</h2>
+            <div class="timeline">
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <span>2019-2020</span>
+                        <h4>SCHOOLING</h4>
+                        <p>I achieved a 96% in my tenth grade at Sri Balaji High School. My strong academic performance laid a solid foundation for my future studies.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>2020- 2022</span>
+                        <h4>INTERMEDIATE</h4>
+                        <p>I am proud to have graduated with distinction, achieving 93% in my intermediate studies at Aditya College. This accomplishment underscores my strong academic performance and dedication to success.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>2022-2026</span>
+                        <h4>Aditya University</h4>
+                        <p>I am currently pursuing my B.Tech at Aditya University, now in my second year. I am enthusiastic about gaining deeper knowledge in my field and actively contributing to the university's academic community.</p>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h3>Coding knowledge and Frontend development</h3>
+                    <div class="timeline-item">
+                        <span>Previous</span>
+                        <h4>Self-taught Programmer</h4>
+                        <p>Learned programming languages in sequence: C, C++, Java, and Python, laying a strong foundation for software development.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>Present</span>
+                        <h4>Problem Solver on Multiple Platforms</h4>
+                        <p>Solved 300+ coding problems across platforms such as LeetCode, GeeksforGeeks, and CodeChef, enhancing proficiency in algorithms and problem-solving.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span>Future</span>
+                        <h4>React.js and Frontend Frameworks</h4>
+                        <p>Currently learning React.js and various frontend development techniques to build dynamic and responsive web applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar"><div style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar"><div style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar"><div style="width: 65%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>React js</h3>
+                <div class="skill-bar"><div style="width: 55%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>C language</h3>
+                <div class="skill-bar"><div style="width: 95%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>Python</h3>
+                <div class="skill-bar"><div style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>Java</h3>
+                <div class="skill-bar"><div style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <h3>C++</h3>
+                <div class="skill-bar"><div style="width: 60%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me!</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="full-name" placeholder="Full Name" required>
+                <input type="email" name="email-address" placeholder="Email Address" required>
+                <input type="text" name="mobile-number" placeholder="Mobile Number" required>
+                <input type="text" name="email-subject" placeholder="Email Subject" required>
+                <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
